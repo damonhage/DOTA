@@ -1,0 +1,7 @@
+Access MySQL Shell:
+mysql -u root -p
+Show Databases:
+show databases;
+Create/Delete Database
+create database [name];
+drop database [name];
