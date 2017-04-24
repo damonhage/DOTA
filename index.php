@@ -1,5 +1,29 @@
 <?php
 
+$servername = "localhost";
+$username = "damon";
+$password = "dota";
+$dbname = "Dota";
+
+
+$conn = mysqli_connect($server, $username, $pass, $dbname);
+if(!$conn){
+	die("Connection failed: " . mysql_connect_error());
+}
+
+$sql = "SELECT id, name, valveid from Heroes";
+$result = mysql_query($conn,$sql);
+
+if (mysql_num_rows($result) > 0)
+{
+	while( $row = mysql_fetch_assoc($result)){
+		echo "id: ". $row["id"]. " - Name: " . $row["name"]. " valveid: " . $row["valveid"]. "<br>";
+		}
+}
+else
+{
+	echo "0 results";
+}
 
 #include 'steamapi.php';
 $api_key = "F9CAC192F951218EB42DC5E383FED159";
