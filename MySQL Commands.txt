@@ -44,229 +44,231 @@ name varchar(40),
 valveid int,
 PRIMARY KEY (id));
 
-Insert into Heroes ('name','valveid') values ( 'npc_dota_hero_antimage',1);
+Insert into Heroes (name,valveid) values ( 'antimage',1);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_axe',2);
+Insert into Heroes (name,valveid) values ( 'axe',2);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_bane',3);
+Insert into Heroes (name,valveid) values ( 'bane',3);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_bloodseeker',4);
+Insert into Heroes (name,valveid) values ( 'bloodseeker',4);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_crystal_maiden',5);
+Insert into Heroes (name,valveid) values ( 'crystal_maiden',5);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_drow_ranger',6);
+Insert into Heroes (name,valveid) values ( 'drow_ranger',6);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_earthshaker',7);
+Insert into Heroes (name,valveid) values ( 'earthshaker',7);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_juggernaut',8);
+Insert into Heroes (name,valveid) values ( 'juggernaut',8);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_mirana',9);
+Insert into Heroes (name,valveid) values ( 'mirana',9);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_nevermore',11);
+Insert into Heroes (name,valveid) values ( 'nevermore',11);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_morphling',10);
+Insert into Heroes (name,valveid) values ( 'morphling',10);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_phantom_lancer',12);
+Insert into Heroes (name,valveid) values ( 'phantom_lancer',12);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_puck',13);
+Insert into Heroes (name,valveid) values ( 'puck',13);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_pudge',14);
+Insert into Heroes (name,valveid) values ( 'pudge',14);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_razor',15);
+Insert into Heroes (name,valveid) values ( 'razor',15);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_sand_king',16);
+Insert into Heroes (name,valveid) values ( 'sand_king',16);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_storm_spirit',17);
+Insert into Heroes (name,valveid) values ( 'storm_spirit',17);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_sven',18);
+Insert into Heroes (name,valveid) values ( 'sven',18);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_tiny',19);
+Insert into Heroes (name,valveid) values ( 'tiny',19);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_vengefulspirit',20);
+Insert into Heroes (name,valveid) values ( 'vengefulspirit',20);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_windrunner',21);
+Insert into Heroes (name,valveid) values ( 'windrunner',21);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_zuus',22);
+Insert into Heroes (name,valveid) values ( 'zuus',22);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_kunkka',23);
+Insert into Heroes (name,valveid) values ( 'kunkka',23);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_lina',25);
+Insert into Heroes (name,valveid) values ( 'lina',25);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_lich',31);
+Insert into Heroes (name,valveid) values ( 'lich',31);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_lion',26);
+Insert into Heroes (name,valveid) values ( 'lion',26);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_shadow_shaman',27);
+Insert into Heroes (name,valveid) values ( 'shadow_shaman',27);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_slardar',28);
+Insert into Heroes (name,valveid) values ( 'slardar',28);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_tidehunter',29);
+Insert into Heroes (name,valveid) values ( 'tidehunter',29);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_witch_doctor',30);
+Insert into Heroes (name,valveid) values ( 'witch_doctor',30);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_riki',32);
+Insert into Heroes (name,valveid) values ( 'riki',32);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_enigma',33);
+Insert into Heroes (name,valveid) values ( 'enigma',33);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_tinker',34);
+Insert into Heroes (name,valveid) values ( 'tinker',34);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_sniper',35);
+Insert into Heroes (name,valveid) values ( 'sniper',35);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_necrolyte',36);
+Insert into Heroes (name,valveid) values ( 'necrolyte',36);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_warlock',37);
+Insert into Heroes (name,valveid) values ( 'warlock',37);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_beastmaster',38);
+Insert into Heroes (name,valveid) values ( 'beastmaster',38);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_queenofpain',39);
+Insert into Heroes (name,valveid) values ( 'queenofpain',39);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_venomancer',40);
+Insert into Heroes (name,valveid) values ( 'venomancer',40);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_faceless_void',41);
+Insert into Heroes (name,valveid) values ( 'faceless_void',41);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_skeleton_king',42);
+Insert into Heroes (name,valveid) values ( 'skeleton_king',42);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_death_prophet',43);
+Insert into Heroes (name,valveid) values ( 'death_prophet',43);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_phantom_assassin',44);
+Insert into Heroes (name,valveid) values ( 'phantom_assassin',44);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_pugna',45);
+Insert into Heroes (name,valveid) values ( 'pugna',45);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_templar_assassin',46);
+Insert into Heroes (name,valveid) values ( 'templar_assassin',46);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_viper',47);
+Insert into Heroes (name,valveid) values ( 'viper',47);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_luna',48);
+Insert into Heroes (name,valveid) values ( 'luna',48);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_dragon_knight',49);
+Insert into Heroes (name,valveid) values ( 'dragon_knight',49);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_dazzle',50);
+Insert into Heroes (name,valveid) values ( 'dazzle',50);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_rattletrap',51);
+Insert into Heroes (name,valveid) values ( 'rattletrap',51);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_leshrac',52);
+Insert into Heroes (name,valveid) values ( 'leshrac',52);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_furion',53);
+Insert into Heroes (name,valveid) values ( 'furion',53);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_life_stealer',54);
+Insert into Heroes (name,valveid) values ( 'life_stealer',54);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_dark_seer',55);
+Insert into Heroes (name,valveid) values ( 'dark_seer',55);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_clinkz',56);
+Insert into Heroes (name,valveid) values ( 'clinkz',56);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_omniknight',57);
+Insert into Heroes (name,valveid) values ( 'omniknight',57);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_enchantress',58);
+Insert into Heroes (name,valveid) values ( 'enchantress',58);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_huskar',59);
+Insert into Heroes (name,valveid) values ( 'huskar',59);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_night_stalker',60);
+Insert into Heroes (name,valveid) values ( 'night_stalker',60);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_broodmother',61);
+Insert into Heroes (name,valveid) values ( 'broodmother',61);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_bounty_hunter',62);
+Insert into Heroes (name,valveid) values ( 'bounty_hunter',62);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_weaver',63);
+Insert into Heroes (name,valveid) values ( 'weaver',63);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_jakiro',64);
+Insert into Heroes (name,valveid) values ( 'jakiro',64);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_batrider',65);
+Insert into Heroes (name,valveid) values ( 'batrider',65);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_chen',66);
+Insert into Heroes (name,valveid) values ( 'chen',66);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_spectre',67);
+Insert into Heroes (name,valveid) values ( 'spectre',67);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_doom_bringer',69);
+Insert into Heroes (name,valveid) values ( 'doom_bringer',69);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_ancient_apparition',68);
+Insert into Heroes (name,valveid) values ( 'ancient_apparition',68);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_ursa',70);
+Insert into Heroes (name,valveid) values ( 'ursa',70);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_spirit_breaker',71);
+Insert into Heroes (name,valveid) values ( 'spirit_breaker',71);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_gyrocopter',72);
+Insert into Heroes (name,valveid) values ( 'gyrocopter',72);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_alchemist',73);
+Insert into Heroes (name,valveid) values ( 'alchemist',73);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_invoker',74);
+Insert into Heroes (name,valveid) values ( 'invoker',74);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_silencer',75);
+Insert into Heroes (name,valveid) values ( 'silencer',75);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_obsidian_destroyer',76);
+Insert into Heroes (name,valveid) values ( 'obsidian_destroyer',76);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_lycan',77);
+Insert into Heroes (name,valveid) values ( 'lycan',77);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_brewmaster',78);
+Insert into Heroes (name,valveid) values ( 'brewmaster',78);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_shadow_demon',79);
+Insert into Heroes (name,valveid) values ( 'shadow_demon',79);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_lone_druid',80);
+Insert into Heroes (name,valveid) values ( 'lone_druid',80);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_chaos_knight',81);
+Insert into Heroes (name,valveid) values ( 'chaos_knight',81);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_meepo',82);
+Insert into Heroes (name,valveid) values ( 'meepo',82);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_treant',83);
+Insert into Heroes (name,valveid) values ( 'treant',83);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_ogre_magi',84);
+Insert into Heroes (name,valveid) values ( 'ogre_magi',84);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_undying',85);
+Insert into Heroes (name,valveid) values ( 'undying',85);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_rubick',86);
+Insert into Heroes (name,valveid) values ( 'rubick',86);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_disruptor',87);
+Insert into Heroes (name,valveid) values ( 'disruptor',87);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_nyx_assassin',88);
+Insert into Heroes (name,valveid) values ( 'nyx_assassin',88);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_naga_siren',89);
+Insert into Heroes (name,valveid) values ( 'naga_siren',89);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_keeper_of_the_light',90);
+Insert into Heroes (name,valveid) values ( 'keeper_of_the_light',90);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_wisp',91);
+Insert into Heroes (name,valveid) values ( 'wisp',91);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_visage',92);
+Insert into Heroes (name,valveid) values ( 'visage',92);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_slark',93);
+Insert into Heroes (name,valveid) values ( 'slark',93);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_medusa',94);
+Insert into Heroes (name,valveid) values ( 'medusa',94);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_troll_warlord',95);
+Insert into Heroes (name,valveid) values ( 'troll_warlord',95);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_centaur',96);
+Insert into Heroes (name,valveid) values ( 'centaur',96);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_magnataur',97);
+Insert into Heroes (name,valveid) values ( 'magnataur',97);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_shredder',98);
+Insert into Heroes (name,valveid) values ( 'shredder',98);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_bristleback',99);
+Insert into Heroes (name,valveid) values ( 'bristleback',99);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_tusk',100);
+Insert into Heroes (name,valveid) values ( 'tusk',100);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_skywrath_mage',101);
+Insert into Heroes (name,valveid) values ( 'skywrath_mage',101);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_abaddon',102);
+Insert into Heroes (name,valveid) values ( 'abaddon',102);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_elder_titan',103);
+Insert into Heroes (name,valveid) values ( 'elder_titan',103);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_legion_commander',104);
+Insert into Heroes (name,valveid) values ( 'legion_commander',104);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_ember_spirit',106);
+Insert into Heroes (name,valveid) values ( 'ember_spirit',106);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_earth_spirit',107);
+Insert into Heroes (name,valveid) values ( 'earth_spirit',107);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_terrorblade',109);
+Insert into Heroes (name,valveid) values ( 'terrorblade',109);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_phoenix',110);
+Insert into Heroes (name,valveid) values ( 'phoenix',110);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_oracle',111);
+Insert into Heroes (name,valveid) values ( 'oracle',111);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_techies',105);
+Insert into Heroes (name,valveid) values ( 'techies',105);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_winter_wyvern',112);
+Insert into Heroes (name,valveid) values ( 'winter_wyvern',112);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_arc_warden',113);
+Insert into Heroes (name,valveid) values ( 'arc_warden',113);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_abyssal_underlord',108);
+Insert into Heroes (name,valveid) values ( 'abyssal_underlord',108);
 
-Insert into Heroes ('name','valveid') values ( 'Hero: npc_dota_hero_monkey_king',114);
+Insert into Heroes (name,valveid) values ( 'monkey_king',114);
+
+
 
