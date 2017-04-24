@@ -1,7 +1,40 @@
 Access MySQL Shell:
 mysql -u root -p
+
 Show Databases:
 show databases;
+
 Create/Delete Database
 create database [name];
 drop database [name];
+
+Open Database:
+use [name];
+
+Create Table:
+Create table [name] (id int not null primary key auto_increment, 
+name varchar(20),
+food varchar(30),
+confirmed char(1),
+signup_date DATE);  //Example 
+
+TABLE AND DATABASE NAMES ARE CASE SENSATIVE.
+
+visualize table:
+DESCRIBE [name];
+
+Insert entry:
+insert into '[name]' (`id`,`name`,`food`,`confirmed`,`signup_date`) VALUES (NULL, "John", "Casserole","Y", '2012-04-11');
+
+Query All Entries:
+Select * from [name];
+
+Update Information:
+Update [name] set 'confirmed' = 'Y' where '[name]'.name = 'Sandy';
+
+Add/Delete a Column
+Alter Table [name] ADD email varchar(40);
+Alter Table [name] drop email;
+
+Delete Entry/Row
+Delete from [name] where [column name] = [field text];
