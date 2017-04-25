@@ -1,11 +1,15 @@
 <?php
 
+//Database information
 $servername = "localhost";
 $username = "damon";
 $password = "dota";
 $dbname = "Dota";
 
-
+/*
+The connection string, is broken
+*/
+/*
 $conn = mysqli_connect($server, $username, $pass, $dbname);
 if(!$conn){
 	die("Connection failed: " . mysql_connect_error());
@@ -24,18 +28,24 @@ else
 {
 	echo "0 results";
 }
+*/
 
-#include 'steamapi.php';
+
 $api_key = "F9CAC192F951218EB42DC5E383FED159";
 $steam_id = "76561198126044756";
 #$steam_id = "Deaql";
 $profile_url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=$api_key&steamids=$steam_id";
 
+$match_url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=$api_key";
+
+$match_string = file_get_contents($match_url);
+var_dump(json_decode($match_string,true));
+
 
 #$api_url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=$api_key&steamids=76561197960435530";
 
 
-
+/*
 $profile_string = file_get_contents($profile_url);
 
 #var_dump(json_decode($json_string));
@@ -106,11 +116,12 @@ foreach ($friend['friendslist']['friends'] as $fri)
 {
 	echo 'Steam ID: ' . $fri['steamid'] .'<br>';
 }
-
+*/
 #$app_url = "http://api.steampowered.com/ISteamApps/GetAppList/v2/?key=$api_key";
 #$app_string = file_get_contents($app_url);
 #$app = json_decode($app_string, true);
 #var_dump($app);
+/*
 $dota_ID = 570;
 echo $dota_ID;
 $hero_url = "http://api.steampowered.com/IEconDOTA2_$dota_ID/GetHeroes/v1/?key=$api_key";
@@ -118,7 +129,7 @@ echo $hero_url;
 $hero_string = file_get_contents($hero_url);
 
 $hero = json_decode($hero_string,true);
-var_dump($hero);
+#var_dump($hero);
 
 #echo $hero['result']['heroes'];
 
@@ -127,7 +138,7 @@ foreach ($hero['result']['heroes'] as $her)
 	echo 'Hero: '.$her['name'].'<br>';
 	echo 'ID: '.$her['id'].'<br>';
 }
-
+*/
 
 #for($i = 0; $i < 113; $i++)
 #{
